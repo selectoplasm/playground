@@ -1,0 +1,259 @@
+.p0 {
+   padding: 0px;
+}
+
+.p1 {
+   padding: 0.25rem;
+}
+
+.p2 {
+   padding: 0.5rem;
+}
+
+.p3 {
+   padding: 0.75rem;
+}
+
+.p4 {
+   padding: 1rem;
+}
+
+.p5 {
+   padding: 1.25rem;
+}
+
+.p6 {
+   padding: 1.5rem;
+}
+
+.p7 {
+   padding: 1.75rem;
+}
+
+.p8 {
+   padding: 2rem;
+}
+
+.p9 {
+   padding: 2.5rem;
+}
+
+.m0 {
+   margin: 0px;
+}
+
+.m1 {
+   margin: 0.25rem;
+}
+
+.m2 {
+   margin: 0.5rem;
+}
+
+.m3 {
+   margin: 0.75rem;
+}
+
+.m4 {
+   margin: 1rem;
+}
+
+.m5 {
+   margin: 1.25rem;
+}
+
+.m6 {
+   margin: 1.5rem;
+}
+
+.m7 {
+   margin: 1.75rem;
+}
+
+.m8 {
+   margin: 2rem;
+}
+
+.m9 {
+   margin: 2.5rem;
+}
+
+.g0 {
+   gap: 0px;
+}
+
+.g1 {
+   gap: 0.25rem;
+}
+
+.g2 {
+   gap: 0.5rem;
+}
+
+.g3 {
+   gap: 0.75rem;
+}
+
+.g4 {
+   gap: 1rem;
+}
+
+.g5 {
+   gap: 1.25rem;
+}
+
+.g6 {
+   gap: 1.5rem;
+}
+
+.g7 {
+   gap: 1.75rem;
+}
+
+.g8 {
+   gap: 2rem;
+}
+
+.g9 {
+   gap: 2.5rem;
+}
+
+.b1 {
+   border-width: 1px;
+}
+
+.b2 {
+   border-width: 2px;
+}
+
+.b3 {
+   border-width: 3px;
+}
+
+.b4 {
+   border-width: 4px;
+}
+
+.b5 {
+   border-width: 5px;
+}
+
+.b6 {
+   border-width: 6px;
+}
+
+.b7 {
+   border-width: 7px;
+}
+
+.b8 {
+   border-width: 8px;
+}
+
+.b9 {
+   border-width: 9px;
+}
+
+.br1 {
+   border-radius: 0.25rem;
+}
+
+.br2 {
+   border-radius: 0.5rem;
+}
+
+.br3 {
+   border-radius: 0.75rem;
+}
+
+.br4 {
+   border-radius: 1rem;
+}
+
+.br5 {
+   border-radius: 1.25rem;
+}
+
+.br6 {
+   border-radius: 1.5rem;
+}
+
+.br7 {
+   border-radius: 1.75rem;
+}
+
+.br8 {
+   border-radius: 2rem;
+}
+
+.br9 {
+   border-radius: 2.5rem;
+}
+
+.br3 {
+   border-radius: 3px;
+}
+
+.br4 {
+   border-radius: 4px;
+}
+
+.br5 {
+   border-radius: 5px;
+}
+
+.br6 {
+   border-radius: 6px;
+}
+
+.br7 {
+   border-radius: 7px;
+}
+
+.br8 {
+   border-radius: 8px;
+}
+
+.br9 {
+   border-radius: 9px;
+}
+
+.solid {
+   border-style: solid;
+}
+
+.dotted {
+   border-style: dotted;
+}
+
+.dashed {
+   border-style: dashed;
+}
+
+.double {
+   border-style: double;
+}
+
+.groove {
+   border-style: groove;
+}
+
+.ridge {
+   border-style: ridge;
+}
+
+.inset {
+   border-style: inset;
+}
+
+.outset {
+   border-style: outset;
+}
+
+.flex {
+   display: flex;
+}
+
+.grid {
+   display: grid;
+}
