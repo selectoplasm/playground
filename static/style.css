@@ -52,10 +52,19 @@ dialog::backdrop {
    background-color: rgba(0,0,0,0.5);
 }
 
-article header {
-   display: flex;
-   justify-content: space-between;
+article {
+   header {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   footer p {
+      text-align: center;
+      color: white;
+   }
 }
+
+
 
 dl {
    --border-color: #444;

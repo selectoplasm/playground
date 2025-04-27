@@ -3,11 +3,10 @@ self.onmessage = (event) => {
    self.postMessage(result);
 }
 
-const ruleset = (selector, declarations) => ({ selector, declarations })
-
 function run(config) {
-   const hue = config["color-hue"]
-   const root = ruleset(":root", [[ "--color", `hsl(${hue}, 50%, 50%);`]])
+   const { hue, saturation, lightness } = config
+   const root = { selector: ":root", declarations: [["--color", `hsl(${hue}, ${saturation}%, ${lightness}%);`]] }
+
    return {
       rulesets: [ root ]
    }
