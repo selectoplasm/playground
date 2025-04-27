@@ -4,6 +4,7 @@ body {
    font-family: sans-serif;
    display: grid;
    place-items: center;
+   justify-content: space-around;
    height: 100vh;
    margin: 0;
 }
@@ -21,6 +22,11 @@ img {
    margin: auto;
 }
 
+p:has(button) {
+   display: flex;
+   justify-content: center;
+}
+
 kbd {
    --size: 1.25rem;
    border: 1px solid white;
@@ -33,4 +39,36 @@ kbd {
    height: calc(var(--size) + 0.25em);
    color: white;
    background-color: #444;
+}
+
+dialog {
+   background-color:black;
+   color: white;
+   backdrop-filter: blur 10px;
+}
+
+dialog::backdrop {
+   background-color: rgba(0,0,0,0.5);
+}
+
+article header {
+   display: flex;
+   justify-content: space-between;
+}
+
+dl {
+   --border-color: #444;
+}
+
+dl dt {
+   color: #aaa;
+   margin-block: 1em;
+}
+
+dl dd {
+   margin-inline-start: 0;
+   border: 1px solid var(--border-color);
+   border-radius: 1em;
+   padding-inline: 1em;
+   line-height: 1.25em;
 }
