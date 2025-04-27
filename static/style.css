@@ -11,6 +11,7 @@ body {
 
 main {
    max-width: 80ch;
+   line-height: 1.35rem;
 }
 
 main header {
