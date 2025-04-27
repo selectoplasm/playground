@@ -14,6 +14,7 @@
    <p id="five">Then, try adding the "primary" class and using the colors plugin configuration to change the color hue.</p>
    <p id="six">Finally, open the Colors Plugin dialog to see just how easy it is to create dynamic plugins in Selectoplasm!</p>
    <p id="seven"><button onclick={() => dialogElement?.showModal()}>Show Colors Plugin Code</button></p>
+   <p id="eight">Oh, open a second browser window (not tab) and load this page. Then set that window's mode to Passive (using the island there; it says Mode: Active probably). Now the active window will send realtime updates to the passive window so you can design for multiple layouts at once!</p>
 </main>
 
 
