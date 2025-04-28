@@ -22,5 +22,8 @@
       <dt>worker.js</dt>
       <dd><JsViewer js={worker} /></dd>
    </dl>
-   <footer><p>That's how simple it is to create your own dynamic workflow with Selectoplasm!</p></footer>
+   <footer>
+      <p>That's how simple it is to create your own dynamic workflow with Selectoplasm!</p>
+      <p>Why not try it out in the Plugin Studio? (top of the screen)</p>
+   </footer>
 </article>
