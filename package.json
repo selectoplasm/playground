@@ -27,7 +27,7 @@
 		]
 	},
 	"dependencies": {
-		"@selectoplasm/plugin-studio": "^0.0.3",
+		"@selectoplasm/plugin-studio": "^0.0.7",
 		"highlight.js": "^11.11.1",
 		"js-beautify": "^1.15.4",
 		"selectoplasm": "^0.1.0"

@@ -50,10 +50,6 @@ dialog {
    backdrop-filter: blur 10px;
 }
 
-dialog::backdrop {
-   background-color: rgba(0,0,0,0.5);
-}
-
 article {
    header {
       display: flex;
@@ -65,8 +61,6 @@ article {
       color: white;
    }
 }
-
-
 
 dl {
    --border-color: #444;
@@ -133,5 +127,43 @@ section#plugin-studio {
 
    > * {
       flex: 30% 1 1;
+   }
+}
+
+section#plugin-studio-controls {
+   display: inline-flex;
+   justify-content: flex-start;
+   white-space: nowrap;
+   gap: 1em;
+}
+
+dialog::backdrop {
+   background-color: rgba(0,0,0,0.5);
+}
+
+dialog {
+   max-width: 80ch;
+   max-height: 80vh;
+   border-color: grey;
+   background-color: hsl(240, 10%, 5%);
+   color: hsl(0, 0%, 95%);
+   padding: 1rem 2rem;
+   line-height: 1.4em;
+
+   pre {
+      font-size: 0.9rem;
+      margin-block: 1.5em;
+      padding-block: 1em;
+      padding-inline-start: 1em;
+      border: 1px solid var(--color-blue-accent);
+      border-radius: 1em;
+      background-color: var(--color-nav-bg);
+      color: var(--color-off-white);
+      --background-size: 8px;
+      --background-line-color: hsla(240, 5%, 55%, 10%);
+      background-image:
+         linear-gradient(var(--background-line-color) 1px, transparent 1px),
+         linear-gradient(90deg, var(--background-line-color) 1px, transparent 1px);
+      background-size: var(--background-size) var(--background-size);
    }
 }
