@@ -36,7 +36,7 @@
 
    const wrapper = $state({ localPlugins: [
       {
-          name: "test",
+          name: "new plugin",
           config: "<input name='num' type='number' value='5' />",
           utilityCss: ".test { color: red; }",
           workerUrl
@@ -45,7 +45,7 @@
 
    let localPlugins = $state.raw([
       {
-          name: "test",
+          name: "new plugin",
           config: "<input name='num' type='number' value='5' />",
           utilityCss: ".test { color: red; }",
           workerUrl
