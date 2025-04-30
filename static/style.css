@@ -167,3 +167,11 @@ dialog {
       background-size: var(--background-size) var(--background-size);
    }
 }
+
+div#plugin-studio-div:not(.visible) > * {
+   display: none;
+}
+
+a:has(+ div#plugin-studio-div):not(.visible) {
+   display: none;
+}

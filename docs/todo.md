@@ -1,7 +1,7 @@
 # Playground Todo
 
-- [ ] get `ComponentLibrary` download button working (might as well install `@selectoplasm/utils` at this point)
-- [ ] add BroadcastChannel API instructions (maybe create multiple pages?)
+- [ ] streamline colors plugin example and plugin studio to just have colors as the default plugin
+- [ ] better yet, put an edit button in the plugin manager list and send the plugin details to plugin studio
 
 ## Files
 

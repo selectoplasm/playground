@@ -85,12 +85,10 @@
 
 <section id="plugin-studio-wrapper">
    <button onclick={() => showPluginStudio = !showPluginStudio}>{ showPluginStudio ? 'Hide' : 'Show' } Plugin Studio</button>
-   {#if showPluginStudio}
-      <a target="_blank" href="https://www.selectoplasm.com/docs/plugins/Overview">Plugin Docs</a>
-      <div transition:slide>
+      <a target="_blank" href="https://www.selectoplasm.com/docs/plugins/Overview" class:visible={showPluginStudio}>Plugin Docs</a>
+      <div id="plugin-studio-div" class:visible={showPluginStudio}>
          <PluginStudio {callback} />
       </div>
-   {/if}
 </section>
 
 <main>
